@@ -1,0 +1,44 @@
+/* styles/banner.module.css */
+
+.banner-thumb {
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Adjust height as needed */
+    width: 100%;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 2rem; /* Adjust font size as needed */
+  }
+  
+  h2::first-letter {
+    color: red; /* Change this to your desired color */
+    font-weight: bold; /* Optional: make the first letter bold */
+  }
+  
+  .button {
+    margin-top: 40px;
+  }
+  
+  .btn-animation {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000; /* Adjust text color */
+    background: #fff; /* Adjust button background */
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .btn-animation:hover {
+    background: #f0f0f0; /* Adjust hover background */
+    color: #000; /* Adjust hover text color */
+  }
+  
+  .banner-shape-bg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }

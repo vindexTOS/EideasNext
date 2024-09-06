@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "bgThumb": "bannerPhoto1.jpg",
+        "title": "Meet Consulting",
+        "title1": "Electronics",
+        "title2": "IoT",
+        "title3": "Design",
+        "title4": "Engineering",
+        "title5": "Automation",
+        "title6": "Solutions",
+        
+        "btnText": "Our Services",
+        "shapeThumb": "4.png",
+        "videoId": "owhuBrGIOsEdsk"
+    } 
+   
+]
