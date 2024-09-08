@@ -1,10 +1,13 @@
 import TeamDetailsContent from '@/components/team/TeamDetailsContent';
 import React from 'react';
 import TeamData from '@/assets/jsonData/team/TeamData.json';
-import LayoutStyle7 from '@/components/Layouts/LayoutStyle7';
+ 
+import LayoutStyle1 from '@/components/Layouts/LayoutStyle1';
+ 
+ 
 
 export const metadata = {
-    title: "Eideas Business - Team Details"
+    title: "Eideas Team Details"
 }
 
 const TeamDetails = ({ params }) => {
@@ -14,9 +17,9 @@ const TeamDetails = ({ params }) => {
 
     return (
         <>
-            <LayoutStyle7 breadCrumb="Team-details" title="Team Details">
+            <LayoutStyle1 breadCrumb="Team-details" title="Team Details">
                 <TeamDetailsContent teamInfo={data} />
-            </LayoutStyle7>
+            </LayoutStyle1>
         </>
     );
 };

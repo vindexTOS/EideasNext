@@ -10,11 +10,11 @@ const HeaderTopStyle2 = () => {
                             <ul className="item-flex">
                                 <li>
                                     <div className="icon">
-                                        <i className="fas fa-map-marker-alt"></i>
+                                        <i className="fas fa-envelope"></i>
                                     </div>
                                     <div className="info">
                                         <strong>Address</strong>
-                                        70240 Avenue of the Moon, California
+                                        <i className="fas fa-envelope"></i> info@eideas.io
                                     </div>
                                 </li>
                                 <li>

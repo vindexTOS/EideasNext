@@ -6,6 +6,8 @@ import SingleBanner1 from './SingleBanner1';
 import Banner1Data from '@/assets/jsonData/banner/Banner1Data.json';
 
 const BannerStyle1 = () => {
+
+    
     return (
         <>
             <div className="banner-area banner-style-one shadow navigation-custom-large zoom-effect overflow-hidden text-light">

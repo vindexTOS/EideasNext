@@ -6,7 +6,9 @@
     height: 400px; /* Adjust height as needed */
     width: 100%;
   }
-  
+ 
+
+ 
   h2 {
     margin: 0;
     font-size: 2rem; /* Adjust font size as needed */
@@ -26,14 +28,14 @@
     align-items: center;
     text-decoration: none;
     color: #000; /* Adjust text color */
-    background: #fff; /* Adjust button background */
+ 
     padding: 10px 20px;
     border-radius: 5px;
     transition: background 0.3s, color 0.3s;
   }
   
   .btn-animation:hover {
-    background: #f0f0f0; /* Adjust hover background */
+ 
     color: #000; /* Adjust hover text color */
   }
   
@@ -42,3 +44,115 @@
     bottom: 0;
     right: 0;
   }
+  .banner-shape-bg {
+    position: relative;
+    display: inline-block; /* or use a specific width/height if needed */
+}
+
+.banner-shape-bg img {
+    display: block;
+    width: 100%; /* Make sure the image fits the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.overlay {
+  z-index: 100001;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0); /* Dark overlay with 50% opacity */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    pointer-events: none; /* Ensure the overlay does not interfere with interaction */
+}
+
+
+.content h2 {
+  /* Base style for all h2 elements */
+  font-size: 24px; /* Example font size, adjust as needed */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.content h2:nth-of-type(1) {
+  text-shadow: 0px 1px 5px #000000;
+  margin-left: 0; /* No offset for the first h2 */
+}
+
+.content h2:nth-of-type(2) {  text-shadow: 0px 1px 5px #000000;
+
+  margin-left: 30px; /* Slightly offset to the right */
+}
+
+.content h2:nth-of-type(3) {  text-shadow: 0px 1px 5px #000000;
+
+  margin-left: 50px; /* More offset */
+}
+
+.content h2:nth-of-type(4) {  text-shadow: 0px 1px 5px #000000;
+
+  margin-left: 70px; /* More offset */
+}
+
+.content h2:nth-of-type(5) {  text-shadow: 0px 1px 5px #000000;
+
+  margin-left: 90px; /* More offset */
+}
+
+.content h2:nth-of-type(6) {  text-shadow: 0px 1px 5px #000000;
+
+  margin-left: 110px; /* More offset */
+}
+
+.content p {
+  text-shadow: 0px 1px 5px #000000;
+ font-size: 1.4rem;
+}
+
+.content h2 {
+  /* Base style for all h2 elements */
+  font-size: 24px; /* Example font size, adjust as needed */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  opacity: 0; /* Start invisible */
+  transform: translateX(0); /* Start from the original position */
+  animation: staggeredAnimation 1s forwards; /* Apply animation */
+  animation-delay: calc(0.1s * var(--i)); /* Stagger animation delay */
+}
+
+@keyframes staggeredAnimation {
+  from {
+      opacity: 0;
+      transform: translateX(-50px); /* Start from the left side */
+  }
+  to {
+      opacity: 1;
+      transform: translateX(0); /* End at the final position */
+  }
+}
+
+/* Define the staggered delays */
+.content h2:nth-of-type(1) {
+  --i: 0; /* No delay for the first h2 */
+}
+
+.content h2:nth-of-type(2) {
+  --i: 1; /* Slight delay */
+}
+
+.content h2:nth-of-type(3) {
+  --i: 2; /* Slightly more delay */
+}
+
+.content h2:nth-of-type(4) {
+  --i: 3; /* More delay */
+}
+
+.content h2:nth-of-type(5) {
+  --i: 4; /* More delay */
+}
+
+.content h2:nth-of-type(6) {
+  --i: 5; /* Most delay */
+}

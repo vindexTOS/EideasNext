@@ -11,16 +11,17 @@ const ServicesStyle2 = () => {
                     <div className="row">
                         <div className="col-lg-8 offset-lg-2">
                             <div className="site-heading text-center">
-                                <h4 className="sub-heading">What we do</h4>
-                                <h2 className="title">Services We're offering</h2>
+                                <h4 className="sub-heading">რას ვაკეთებთ</h4>
+                                <h2 className="title">სერვისები, რომლებსაც გთავაზობთ
+                                </h2>
                                 <div className="devider"></div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="container">
-                    <div className="row">
-                        {Services2Data.slice(0, 3).map(service =>
+                    <div  style={{width:'100%',display:'flex', alignItems:'center', justifyContent:"center", gap:20, flexWrap:"flex"}}>
+                        {Services2Data.slice(0, 4).map(service =>
                             <div className="col-xl-4 col-md-6 mb-30" key={service.id}>
                                 <SingleServices2 service={service} />
                             </div>
@@ -32,4 +33,4 @@ const ServicesStyle2 = () => {
     );
 };
 
-export default ServicesStyle2;
+export default ServicesStyle2; 

@@ -22,7 +22,7 @@ const ContactStyle2 = () => {
                         </div>
                         <div className="contact-stye-one col-lg-7 pl-60 pl-md-15 pl-xs-15 mt-md-50">
                             <div className="contact-form-style-one">
-                                <h5 className="sub-title">Have Questions?</h5>
+                                <h5 className="sub-title">გააქვთ შეკითხვა? </h5>
                                 <h2 className="heading">Send us a Massage</h2>
                                 <ContactForm />
                             </div>

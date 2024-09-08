@@ -5,7 +5,7 @@ import SingleTeamList from './SingleTeamList';
 import SkillProgress from '../progress/SkillProgress';
 
 const TeamDetailsContent = ({ teamInfo }) => {
-    const { memberThumb, name, designation, email, memberData, skillProgress } = teamInfo
+    const { memberThumb, name, designation, email, memberData, skillProgress , description , phone} = teamInfo
 
     return (
         <>
@@ -22,8 +22,8 @@ const TeamDetailsContent = ({ teamInfo }) => {
                                 <h2>{[name]}</h2>
                                 <span>{[designation]}</span>
                                 <p>
-                                    Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring house in never fruit up. Pasture imagine my garrets..
-                                </p>
+                                    {description}
+                                 </p>
 
                                 <ul>
                                     <li>
@@ -32,7 +32,7 @@ const TeamDetailsContent = ({ teamInfo }) => {
                                     </li>
                                     <li>
                                         <strong>Phone:</strong>
-                                        <a href="tel:123-456-7890">+44-20-7328-4499</a>
+                                        <a  >{phone}</a>
                                     </li>
                                 </ul>
                                 <div className="social">

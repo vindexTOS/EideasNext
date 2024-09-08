@@ -2,26 +2,25 @@
     {
         "id": 1,
         "activeClass": "active",
-        "memberThumb": "1.jpg",
-        "designation": "CEO & Founder",
-        "name": "Md Sohag",
-        "email": "sohag@digital.com",
+        "memberThumb": "davit.jpg",
+        "designation": "ელექტრო ინჟინერი და პროგრამისტი",
+        "name": "დავით ჭანტურია",
+        "email": "info@eideas.io",
+        "linkedIN":"https://www.linkedin.com/in/david-tchanturia-9b599a64/",
+          "phone":"+995 574 15 19 53",
+        "description":"დავით ჭანტურია არის დიდი გამოცდილების მქონე მაღალი კლასის ელექტრო ინჟინერი და პროგრამისტი. ძლიერი აკადემიური საფუძველი და მრავალფეროვანი გამოცდილება, მთავარი საფუძველია იმისა, რომ დავთი მუდმივად ახორციელებს ინოვაციურ იდეებს სხვადასხვა პროექტებში. მისი პროფესიონალიზმი მოიცავს როგორც ტექნიკური, ასევე პროგრამული უზრუნველყოფის სფეროებს, რაც აჩვენებს მის უნარს დააპროექტოს და განახორციელოს რთული ელექტრო სისტემები მაღალი დონის პროგრამულ კოდებთან ერთად. მისი ცოდნა პროგრამირების ენებში, როგორიცაა C და C++, ელექტრონიკისა და მიკროსქემის სიღმისეულ ანალიზთან ერთად, საშუალებას აძლევს მას შეუფერხებლად გადალახოს პროგრამულ და აპარატურულ (Hardware) უზრუნველყოფას შორის განსხვავებულობით გამოწვეული პრობლემები. დავითის გუნდური აზროვნება და შესანიშნავი კომუნიკაციის უნარი, ასევე მისი ინტერესი უახლესი თანამედროვე ტექნოლოგიებისადმი ხელს უწყობს მის ადაპტირებას და წარმატებას ჩვენს გუნდში რთული ელექტროინჟინრული და პროგრამიული გამოწვევების დასაძლევად.",
         "skillProgress": [
             {
                 "id": 1,
-                "title": "Programming Language",
-                "end": 88
-            },
-            {
-                "id": 2,
-                "title": "Backend Development",
-                "end": 95
-            },
-            {
-                "id": 3,
-                "title": "Product Design",
-                "end": 80
+                "title": "C",
+                "end": 100
             }
+         ,
+         {
+            "id": 1,
+            "title": "C++",
+            "end": 100
+        }
         ],
         "memberData": [
             {
@@ -30,16 +29,11 @@
                 "memberInfo": [
                     {
                         "id": 1,
-                        "title": "Residential College",
-                        "info": "BA Honours - Biology",
-                        "timeSpan": "2004 - 2008"
-                    },
-                    {
-                        "id": 2,
-                        "title": "University of Iowa",
-                        "info": "Master's degree - Macroeconomics",
-                        "timeSpan": "2009 - 2012"
-                    }
+                        "title": "Saqartvelos Teqnikuri Universiteti",
+                        "info": "electric engineering",
+                        "timeSpan": "1995 - 2000"
+                    } 
+                    
                 ]
             },
             {
@@ -48,15 +42,27 @@
                 "memberInfo": [
                     {
                         "id": 1,
-                        "title": "Product Manager",
-                        "info": "Samsung Bangladesh",
-                        "timeSpan": "31 Aug, 2013"
+                        "title": "Electrical Engineer",
+                        "info": "special state protection service of georgia",
+                        "timeSpan": "Dec 2001 - Dec 2011 "
                     },
                     {
                         "id": 2,
-                        "title": "Senior Marketing",
-                        "info": "Manuring Technology Company",
-                        "timeSpan": "12 Dec 2018"
+                        "title": "programmer",
+                        "info": "MyGPS LLC",
+                        "timeSpan": "Dec 2011 - Dec 2013"
+                    },
+                    {
+                        "id": 3,
+                        "title": "lector",
+                        "info": "agricultural university of georgia",
+                        "timeSpan": "Sep 2013 - Present"
+                    },
+                    {
+                        "id": 4,
+                        "title": "Electrical Engineer",
+                        "info": "georgian ministry of internal affairs",
+                        "timeSpan": "Sep 2011 - Present"
                     }
                 ]
             }
@@ -65,26 +71,20 @@
     {
         "id": 2,
         "activeClass": "",
-        "memberThumb": "2.jpg",
-        "designation": "Product Manager",
-        "name": "Kevin Martin",
-        "email": "kevin@digital.com",
+        "memberThumb": "otari.jpg",
+        "designation": "ელექტრო ინჟინერი და პროგრამისტი",
+        "name": "ოთარ ჯავახიშვილი",
+        "email": "info@eideas.io",
+        "linkedIN":"https://www.linkedin.com/in/otari-javakhishvili-40996b64/",
+        "phone":"+995 574 15 19 53",
+      "description":"ოთარი არის ელექტრო ინჟინერი და პროგრამისტი. მას აქვს საქართველოს აგრარული უნივერსიტეტის ბაკალავრის, მაგისტრისა და დოქტორის ხარისხები. ის არის კარგი სქემატური დიზაინერი, ანალოგური და ციფრული სქემების დიზაინერი, PCB დიზაინერი (დიზაინი, დამზადება, ტესტირება და პრობლემების მოგვარება). გარდა ამისა, შეგიძლიათ იხილოთ მისი პუბლიკაციები აქ .ოთარს აქვს ელექტრონიკასა და PCB დიზაინში უზარმაზარი გამოცდილება. მას ძირითადად უმუშავია Altium Designer-სა და EAGLE-ში. ოთარს ასევე აქვს გამოცდილება FPGA-სა და VHDL-ში vivado, vivado HLS-ის გამოყენებით. ბევრი უმუშავია ასევე 8 ბიტიან მიკროკონტროლერებზე C-ის გამოყენებით. მას აქვს მექანიკური მოწყობილობების კონტროლის სისტემების ელექტრული და პროგრამული უზრუნველყოფისთვის საჭირო პროექტებზე მუშაობის გამოცდილება. მან შეიმუშავა რამდენიმე ასეთი საკონტროლო სისტემა ნაწილაკების დეტექტორის მექანიკური სისტემებისთვის, სადაც გამოიყენა ქსელური ინტერფეისი და პითონში შექმნა სხვადასხვა GUI, სადაც კომუნიკაცია ხორციელდება TCP კლიენტ-სერვერის სისტემით ან EPICS კონტროლის სისტემით."  ,
         "skillProgress": [
             {
                 "id": 1,
-                "title": "Programming Language",
-                "end": 88
-            },
-            {
-                "id": 2,
-                "title": "Backend Development",
-                "end": 95
-            },
-            {
-                "id": 3,
-                "title": "Product Design",
-                "end": 80
+                "title": "PCB დიზაინი",
+                "end":  100
             }
+          
         ],
         "memberData": [
             {
@@ -93,16 +93,10 @@
                 "memberInfo": [
                     {
                         "id": 1,
-                        "title": "Residential College",
-                        "info": "BA Honours - Biology",
-                        "timeSpan": "2004 - 2008"
-                    },
-                    {
-                        "id": 2,
-                        "title": "University of Iowa",
-                        "info": "Master's degree - Macroeconomics",
-                        "timeSpan": "2009 - 2012"
-                    }
+                        "title": "Agricultural University Of Georgia",
+                        "info": "Bachelor's degree, electrical and computer sciences",
+                        "timeSpan": "2012-2016"
+                    } 
                 ]
             },
             {
@@ -111,15 +105,27 @@
                 "memberInfo": [
                     {
                         "id": 1,
-                        "title": "Product Manager",
-                        "info": "Samsung Bangladesh",
-                        "timeSpan": "31 Aug, 2013"
+                        "title": "programmer",
+                        "info": "Agricultural university of Georgia",
+                        "timeSpan": "Oct 2012"
                     },
                     {
                         "id": 2,
-                        "title": "Senior Marketing",
-                        "info": "Manuring Technology Company",
-                        "timeSpan": "12 Dec 2018"
+                        "title": "Lecturer",
+                        "info": "IT STEP Computer Academy ",
+                        "timeSpan": "Feb 2017"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Electrical Design Engineer",
+                        "info": "Czech Technical University in Prague · Full-time",
+                        "timeSpan": "Nov 2023"
+                    },
+                    {
+                        "id": 4,
+                        "title": "Co-Founder",
+                        "info": "Eideas",
+                        "timeSpan": "Sep 2023"
                     }
                 ]
             }
@@ -128,26 +134,25 @@
     {
         "id": 3,
         "activeClass": "",
-        "memberThumb": "8.jpg",
-        "designation": "Financial Consultant",
-        "name": "Sarah Albert",
-        "email": "sarah@digital.com",
+        "memberThumb": "kurtandize.jpg",
+        "designation": "ელექტრო ინჟინერი და პროგრამისტი",
+        "name": "გიორგი კურტანიძე",
+        "email": "info@eideas.io",
+        "linkedIN":"https://www.linkedin.com/in/giorgi-kurtanidze-079468188/",
+        "phone":"+995 574 15 19 53",
+      "description":"გიორგი კურტანიძე არის გამოცდილი ელექტრო ინჟინერი და პროგრამისტი, რომელიც ცნობილია თავისი განსაკუთრებული გამოცდილებით IoT სისტემების სფეროში, რომელიც გამოირჩევა როგორც ტექნიკური, ისე პროგრამული უზრუნველყოფის სირთულეებით. Hardware მიმართულებით გიორგის სიღრმისეულმა ცოდნამ ელექტრონიკასა და სქემების დიზაინის შესახებ ხელი შეუწყო ინოვაციური IoT მოწყობილობების შექმნას. დეტალებისადმი მისი განსაკუთრებული ყურადღება უზრუნველყოფს, რომ ეს მოწყობილობები დღეს შეუფერხებლადაა ინტეგრირებული განსხვავებულ სხვადასხვა გარემოში. პროგრამული უზრუნველყოფის (Software-ის) მხრივ, გიორგის გამოცდილება ხაზს უსვამს მის უნარს, განავითაროს თანამედროვე აპლიკაციები, რომლებიც ამოძრავებენ IoT სისტემებს. ის ფლობს ენებს, როგორიცაა C და C++, რითიც ქმნის ეფექტურ კოდს, რომელიც იდეალურად მუშაობს მისი IoT პროექტების ფუნქციონირებას. ამ პროფესიონალიზმის გარდა, გიორგი გამოირჩევა თანამშრომლობისა და ეფექტური კომუნიკაციის საოცარი უნარით, რაც ხელს უწყობს ჩვენს გუნდში მის მარტივ ადაპტაციას და იდეალურ თანამშროლობას."  ,
         "skillProgress": [
             {
                 "id": 1,
-                "title": "Programming Language",
-                "end": 88
-            },
-            {
-                "id": 2,
-                "title": "Backend Development",
-                "end": 95
-            },
-            {
-                "id": 3,
-                "title": "Product Design",
-                "end": 80
+                "title": "C",
+                "end": 100
             }
+         ,
+         {
+            "id": 1,
+            "title": "C++",
+            "end": 100
+        }
         ],
         "memberData": [
             {
@@ -156,16 +161,10 @@
                 "memberInfo": [
                     {
                         "id": 1,
-                        "title": "Residential College",
-                        "info": "BA Honours - Biology",
-                        "timeSpan": "2004 - 2008"
-                    },
-                    {
-                        "id": 2,
-                        "title": "University of Iowa",
-                        "info": "Master's degree - Macroeconomics",
-                        "timeSpan": "2009 - 2012"
-                    }
+                        "title": "Georgian Technical University",
+                        "info": "Master's degree, Electrical and Electronics Engineering",
+                        "timeSpan": "2008 - 2015"
+                    } 
                 ]
             },
             {
@@ -174,15 +173,21 @@
                 "memberInfo": [
                     {
                         "id": 1,
-                        "title": "Product Manager",
-                        "info": "Samsung Bangladesh",
-                        "timeSpan": "31 Aug, 2013"
+                        "title": "Electronic Engineer",
+                        "info": "AzRy",
+                        "timeSpan": "Apr 2015 - Mar 2016 "
                     },
                     {
                         "id": 2,
-                        "title": "Senior Marketing",
-                        "info": "Manuring Technology Company",
-                        "timeSpan": "12 Dec 2018"
+                        "title": "Electronics and IoT Engineer",
+                        "info": "კაია • Kaya",
+                        "timeSpan": "Oct 2017 - Jul 2021 "
+                    },
+                    {
+                        "id": 3,
+                        "title": "Founder and CTO",
+                        "info": "Lomsa ",
+                        "timeSpan": "Oct 2019 - May 2022 "
                     }
                 ]
             }
@@ -191,316 +196,42 @@
     {
         "id": 4,
         "activeClass": "",
-        "memberThumb": "4.jpg",
-        "designation": "Developer",
-        "name": "Aleesha Brown",
-        "email": "aleesha@digital.com",
+        "memberThumb": "goniashvili.jpg",
+        "designation": "ელექტრო ინჟინერი და პროგრამისტი",
+        "name": "გიორგი გონაშვილი",
+        "linkedIN":"https://www.linkedin.com/in/david-tchanturia-9b599a64/",
+        "phone":"+995 574 15 19 53",
+      "description":"გიორგი გონაშვილი არის გამორჩეული ელექტრო ინჟინერი და პროგრამისტი, რომელსაც აქვს მრავალფეროვანი გამოცდილება ორივე ტექნიკურ სფეროში (Hardware და Software). მისი პროფესიონალიზმი მდგომარეობს ტექნიკური და პროგრამული უზრუნველყოფის იდეალურ შერწყმაში. პროგრამული უზრუნველყოფის თვალსაზრისით, გიორგის ოსტატობა პროგრამირებაში ხაზს უსვამს მის უნარს, განავითაროს ძლიერი პროგრამული მხარდაჭერა თავისივე Hardware დევაისებისთვის. ფლობს ენებს, როგორიცაა C++ და C, რითიც ის ქმნის პროგრამულ კოდს მოწყობილობის სწორი ფუნქციონირებისთვის. ტექნიკური შესაძლებლობების გარდა, გიორგი ცნობილია ინოვაციებისადმი ერთგულებითა და ცოდნის უწყვეტი ძიებით. მისი თანამშრომლობის სული და ეფექტური კომუნიკაციის უნარი კიდევ უფრო აძლიერებს მის შესაძლებლობას წარმართოს პროექტები იდეიდან რეალობამდე."
+       , "email": "info@eideas.io",
         "skillProgress": [
             {
                 "id": 1,
-                "title": "Programming Language",
-                "end": 88
-            },
-            {
-                "id": 2,
-                "title": "Backend Development",
-                "end": 95
-            },
-            {
-                "id": 3,
-                "title": "Product Design",
-                "end": 80
+                "title": "C",
+                "end": 100
             }
+         ,
+         {
+            "id": 1,
+            "title": "C++",
+            "end": 100
+        }
         ],
         "memberData": [
             {
                 "id": 1,
                 "listTitle": "Education",
                 "memberInfo": [
-                    {
-                        "id": 1,
-                        "title": "Residential College",
-                        "info": "BA Honours - Biology",
-                        "timeSpan": "2004 - 2008"
-                    },
-                    {
-                        "id": 2,
-                        "title": "University of Iowa",
-                        "info": "Master's degree - Macroeconomics",
-                        "timeSpan": "2009 - 2012"
-                    }
+                   
                 ]
             },
             {
                 "id": 2,
                 "listTitle": "Experience",
                 "memberInfo": [
-                    {
-                        "id": 1,
-                        "title": "Product Manager",
-                        "info": "Samsung Bangladesh",
-                        "timeSpan": "31 Aug, 2013"
-                    },
-                    {
-                        "id": 2,
-                        "title": "Senior Marketing",
-                        "info": "Manuring Technology Company",
-                        "timeSpan": "12 Dec 2018"
-                    }
+                  
                 ]
             }
         ]
-    },
-    {
-        "id": 5,
-        "activeClass": "",
-        "memberThumb": "3.jpg",
-        "designation": "CEO & Founder",
-        "name": "Istiak Ahmed",
-        "email": "ahmed@digital.com",
-        "skillProgress": [
-            {
-                "id": 1,
-                "title": "Programming Language",
-                "end": 88
-            },
-            {
-                "id": 2,
-                "title": "Backend Development",
-                "end": 95
-            },
-            {
-                "id": 3,
-                "title": "Product Design",
-                "end": 80
-            }
-        ],
-        "memberData": [
-            {
-                "id": 1,
-                "listTitle": "Education",
-                "memberInfo": [
-                    {
-                        "id": 1,
-                        "title": "Residential College",
-                        "info": "BA Honours - Biology",
-                        "timeSpan": "2004 - 2008"
-                    },
-                    {
-                        "id": 2,
-                        "title": "University of Iowa",
-                        "info": "Master's degree - Macroeconomics",
-                        "timeSpan": "2009 - 2012"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "listTitle": "Experience",
-                "memberInfo": [
-                    {
-                        "id": 1,
-                        "title": "Product Manager",
-                        "info": "Samsung Bangladesh",
-                        "timeSpan": "31 Aug, 2013"
-                    },
-                    {
-                        "id": 2,
-                        "title": "Senior Marketing",
-                        "info": "Manuring Technology Company",
-                        "timeSpan": "12 Dec 2018"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": 6,
-        "activeClass": "",
-        "memberThumb": "7.jpg",
-        "designation": "Product Manager",
-        "name": "Kevin Martin",
-        "email": "kevin@digital.com",
-        "skillProgress": [
-            {
-                "id": 1,
-                "title": "Programming Language",
-                "end": 88
-            },
-            {
-                "id": 2,
-                "title": "Backend Development",
-                "end": 95
-            },
-            {
-                "id": 3,
-                "title": "Product Design",
-                "end": 80
-            }
-        ],
-        "memberData": [
-            {
-                "id": 1,
-                "listTitle": "Education",
-                "memberInfo": [
-                    {
-                        "id": 1,
-                        "title": "Residential College",
-                        "info": "BA Honours - Biology",
-                        "timeSpan": "2004 - 2008"
-                    },
-                    {
-                        "id": 2,
-                        "title": "University of Iowa",
-                        "info": "Master's degree - Macroeconomics",
-                        "timeSpan": "2009 - 2012"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "listTitle": "Experience",
-                "memberInfo": [
-                    {
-                        "id": 1,
-                        "title": "Product Manager",
-                        "info": "Samsung Bangladesh",
-                        "timeSpan": "31 Aug, 2013"
-                    },
-                    {
-                        "id": 2,
-                        "title": "Senior Marketing",
-                        "info": "Manuring Technology Company",
-                        "timeSpan": "12 Dec 2018"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": 7,
-        "activeClass": "",
-        "memberThumb": "5.jpg",
-        "designation": "Financial Consultant",
-        "name": "Sarah Albert",
-        "email": "sarah@digital.com",
-        "skillProgress": [
-            {
-                "id": 1,
-                "title": "Programming Language",
-                "end": 88
-            },
-            {
-                "id": 2,
-                "title": "Backend Development",
-                "end": 95
-            },
-            {
-                "id": 3,
-                "title": "Product Design",
-                "end": 80
-            }
-        ],
-        "memberData": [
-            {
-                "id": 1,
-                "listTitle": "Education",
-                "memberInfo": [
-                    {
-                        "id": 1,
-                        "title": "Residential College",
-                        "info": "BA Honours - Biology",
-                        "timeSpan": "2004 - 2008"
-                    },
-                    {
-                        "id": 2,
-                        "title": "University of Iowa",
-                        "info": "Master's degree - Macroeconomics",
-                        "timeSpan": "2009 - 2012"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "listTitle": "Experience",
-                "memberInfo": [
-                    {
-                        "id": 1,
-                        "title": "Product Manager",
-                        "info": "Samsung Bangladesh",
-                        "timeSpan": "31 Aug, 2013"
-                    },
-                    {
-                        "id": 2,
-                        "title": "Senior Marketing",
-                        "info": "Manuring Technology Company",
-                        "timeSpan": "12 Dec 2018"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": 8,
-        "activeClass": "",
-        "memberThumb": "4.jpg",
-        "designation": "Developer",
-        "name": "Aleesha Brown",
-        "email": "aleesha@digital.com",
-        "skillProgress": [
-            {
-                "id": 1,
-                "title": "Programming Language",
-                "end": 88
-            },
-            {
-                "id": 2,
-                "title": "Backend Development",
-                "end": 95
-            },
-            {
-                "id": 3,
-                "title": "Product Design",
-                "end": 80
-            }
-        ],
-        "memberData": [
-            {
-                "id": 1,
-                "listTitle": "Education",
-                "memberInfo": [
-                    {
-                        "id": 1,
-                        "title": "Residential College",
-                        "info": "BA Honours - Biology",
-                        "timeSpan": "2004 - 2008"
-                    },
-                    {
-                        "id": 2,
-                        "title": "University of Iowa",
-                        "info": "Master's degree - Macroeconomics",
-                        "timeSpan": "2009 - 2012"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "listTitle": "Experience",
-                "memberInfo": [
-                    {
-                        "id": 1,
-                        "title": "Product Manager",
-                        "info": "Samsung Bangladesh",
-                        "timeSpan": "31 Aug, 2013"
-                    },
-                    {
-                        "id": 2,
-                        "title": "Senior Marketing",
-                        "info": "Manuring Technology Company",
-                        "timeSpan": "12 Dec 2018"
-                    }
-                ]
-            }
-        ]
-    }
+    } 
+   
 ]

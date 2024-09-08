@@ -9,7 +9,8 @@ const SingleServices2 = ({ service }) => {
         <>
             <div className="services-style-two active">
                 <div className="thumb">
-                    <Image src={`/assets/img/service/${thumb}`} width={800} height={600} alt="Thumb" />
+                    {/* <Image src={`/assets/img/service/${thumb}`} width={800} height={600} alt="Thumb" /> */}
+                    <img style={{width:"800px" , height:"280px"}}  src={`/assets/img/service/${thumb}`}  />
                     <div className="title">
                         <Link href={`/services-details/${id}`}>
                             <i className={icon}></i>

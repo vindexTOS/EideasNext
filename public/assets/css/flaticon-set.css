@@ -648,3 +648,25 @@
 .flaticon-quote:before {
     content: "\f1cf";
 }
+/* Update or add new icon classes */
+.flaticon-circuit-board:before {
+    content: "\f1cf"; /* Replace with actual Unicode value for circuit board */
+}
+
+.flaticon-microchip:before {
+    content: "\f2db";
+}
+
+.flaticon-schematic:before {
+    content: "\f114"; /* Replace with actual Unicode value for schematic */
+}
+
+.flaticon-blueprint:before {
+    content: "\f115"; /* Replace with actual Unicode value for blueprint */
+}
+
+.flaticon-component:before {
+    content: "\f116"; /* Replace with actual Unicode value for component */
+}
+
+/* Ensure there are no conflicts with existing classes */

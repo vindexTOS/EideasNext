@@ -2,7 +2,7 @@
     {
         "id": 1,
         "bgThumb": "bannerPhoto1.jpg",
-        "title": "Meet Consulting",
+        "title": "ჩვენ გარდავქმნით თქვენს იდეას რეალობად",
         "title1": "Electronics",
         "title2": "IoT",
         "title3": "Design",
@@ -10,7 +10,7 @@
         "title5": "Automation",
         "title6": "Solutions",
         
-        "btnText": "Our Services",
+        "btnText": "მეტის გასაგებად დაგვიკავშირდით",
         "shapeThumb": "4.png",
         "videoId": "owhuBrGIOsEdsk"
     } 

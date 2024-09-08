@@ -4,13 +4,13 @@ import ContactUsContent from '@/components/contact/ContactUsContent';
 import React from 'react';
 
 export const metadata = {
-    title: "Eideas Business - Contact Us"
+    title: "Eideas - Contact Us"
 }
 
 const ContactUs = () => {
     return (
         <>
-            <LayoutStyle7 breadCrumb="contact-us" title="Contact Us">
+            <LayoutStyle7 breadCrumb="contact-us" title="დაგვიკავშირდით">
                 <ContactUsContent />
                 <ContactMap />
             </LayoutStyle7>

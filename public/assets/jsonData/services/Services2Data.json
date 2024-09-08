@@ -1,42 +1,42 @@
 [
     {
         "id": 1,
-        "thumb": "2.jpg",
-        "thumbFull": "2-full.jpg",
+        "thumb": "iotWallpaper.webp",
+        "thumbFull": "iotWallpaper.webp",
         "activeClass": "",
-        "title": "Commercial Funds",
-        "icon": "flaticon-budget",
-        "text": "Continue indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse.",
-        "btnText": "Read More"
+        "title": "IoT",
+        "icon": "flaticon-data",
+        "text": "IoT სისტემები არის რევოლუციური იდეა, რომელიც მოიაზრებს ფიზიკური ობიექტების, მოწყობილობების, მანქანების, შენობების და სხვადასხვა ობიექტების ქსელს..",
+        "btnText": "გაეცანით ვრცლად"
     },
     {
         "id": 2,
-        "thumb": "3.jpg",
-        "thumbFull": "3-full.jpg",
+        "thumb": "PCB.jpeg",
+        "thumbFull": "PCB.jpeg",
         "activeClass": "",
-        "title": "Markets Research",
-        "icon": "flaticon-bar-chart",
-        "text": "Technic indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse.",
-        "btnText": "Read More"
+        "title": "PCB დიზაინი",
+        "icon": "flaticon-network",
+        "text": "PCB (Printed Circuit Board) დიზაინი ელექტრონიკის ინჟინერიის კრიტიკული ასპექტია და გულისხმობს ფიზიკური დაფის შექმნას, რომელიც აკავშირებს და ელექტრონულ კომპონენტებს...",
+        "btnText": "გაეცანით ვრცლად"
     },
     {
         "id": 3,
-        "thumb": "4.jpg",
-        "thumbFull": "4-full.jpg",
+        "thumb": "hardware.jpg",
+        "thumbFull": "hardware.jpg",
         "activeClass": "",
-        "title": "Saving & Investments",
-        "icon": "flaticon-credit-cards",
-        "text": "Librarian indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse.",
-        "btnText": "Read More"
+        "title": "Hardware ინჟინერია",
+        "icon": "flaticon-development",
+        "text": "Hardware ინჟინერია არის ინჟინერიის სფერო, რომელიც ფოკუსირებულია ელექტრონული ტექნიკის ფიზიკური კომპონენტებისა და სისტემების დიზაინზე, განვითარებასა და განხორცი..",
+        "btnText": "გაეცანით ვრცლად"
     },
     {
         "id": 4,
-        "thumb": "3.jpg",
-        "thumbFull": "3-full.jpg",
+        "thumb": "automisation.avif",
+        "thumbFull": "automisation.avif",
         "activeClass": "",
-        "title": "Business Planning",
-        "icon": "flaticon-bar-chart",
-        "text": "Technic indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse.",
-        "btnText": "Read More"
+        "title": "სისტემების აუტომიზაცია",
+        "icon": "flaticon-solution-1",
+        "text": "სისტემების ავტომატიზაცია ეხება იმ ტექნოლოგიისა და პროცესების შექმნას, რომლებიც ადამიანების მიერ შესრულებული ამოცანების, პროცესების ან ოპერაციების...",
+        "btnText": "გაეცანით ვრცლად"
     }
 ]

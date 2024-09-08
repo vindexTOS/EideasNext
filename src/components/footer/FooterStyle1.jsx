@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import shape7 from '@/assets/img/shape/7.png';
 import shape9 from '@/assets/img/shape/9.png';
-import logoLight from '@/assets/img/logo-light.png';
+import logoLight from '@/assets/img/logo.png';
 import Link from 'next/link';
 import SocialShare from '../utilities/SocialShare';
 import FooterNewsLetter from '../form/FooterNewsLetter';
@@ -31,18 +31,18 @@ const FooterStyle1 = ({ shape, shapeClass, logo, formStyle }) => {
                                         Excellence decisively nay man twins impression maximum contrasted remarkably is perfect.
                                     </p>
                                     <div className="opening-hours">
-                                        <h5>Opening Hours</h5>
+                                        <h5>მუშაობის საათები</h5>
                                         <ul>
                                             <li>
-                                                <div className="working-day">Monday – Sunday:</div>
+                                                <div className="working-day">ორშაბათი - პარასკევი:</div>
                                                 <div className="marker"></div>
-                                                <div className="working-hour">2pm – 2pm</div>
+                                                <div className="working-hour">10:00  – 18:00 სთ</div>
                                             </li>
-                                            <li>
+                                            {/* <li>
                                                 <div className="working-day">Sunday:</div>
                                                 <div className="marker"></div>
                                                 <div className="working-hour">Off Day</div>
-                                            </li>
+                                            </li> */}
                                         </ul>
                                     </div>
                                 </div>

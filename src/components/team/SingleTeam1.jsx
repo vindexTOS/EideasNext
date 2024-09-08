@@ -4,7 +4,7 @@ import React from 'react';
 import SocialShareStyle3 from '../utilities/SocialShareStyle3';
 
 const SingleTeam1 = ({ team }) => {
-    const { id, activeClass, memberThumb, designation, name } = team
+    const { id, activeClass, memberThumb, designation, name , linkedIN} = team
 
     return (
         <>
@@ -13,7 +13,7 @@ const SingleTeam1 = ({ team }) => {
                     <Image src={`/assets/img/team/${memberThumb}`} width={800} height={800} alt="Image Not Found" />
                     <div className="social">
                         <ul>
-                            <SocialShareStyle3 />
+                            <SocialShareStyle3 link={linkedIN} />
                         </ul>
                     </div>
                 </div>
