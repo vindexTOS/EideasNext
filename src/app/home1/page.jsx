@@ -24,7 +24,7 @@ const Home1 = () => {
             <LayoutStyle1>
                 <BannerStyle1 />
                 <AboutStyle1 />
-                <ServicesStyle2 />
+                {/* <ServicesStyle2 /> */}
                 {/* <ProcessStyle1 /> */}
                 {/* <ChooseStyle1 /> */}
                 <TeamStyle1 sectionClass="bg-gray" teamTitle={true} />

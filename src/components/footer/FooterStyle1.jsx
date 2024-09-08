@@ -92,13 +92,13 @@ const FooterStyle1 = ({ shape, shapeClass, logo, formStyle }) => {
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6 footer-item">
-                                <h4 className="widget-title">Newsletter</h4>
+                                <h4 className="widget-title">სოციალური მედია</h4>
                                 <p>
-                                    Join our subscribers list to get the latest <br /> news and special offers.
+                                   გამოგვყევით სოციალურ მედიაზე
                                 </p>
-                                <div className={`f-item newsletter ${formStyle}`}>
+                                {/* <div className={`f-item newsletter ${formStyle}`}>
                                     <FooterNewsLetter />
-                                </div>
+                                </div> */}
                                 <ul className="footer-social">
                                     <SocialShare />
                                 </ul>
@@ -110,16 +110,16 @@ const FooterStyle1 = ({ shape, shapeClass, logo, formStyle }) => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6">
-                                <p>&copy; Copyright {(new Date().getFullYear())}. All Rights Reserved by <a href="https://themeforest.net/user/validthemes/portfolio" target='_blank'>validthemes</a></p>
+                                <p>&copy; Copyright {(new Date().getFullYear())}. All Rights Reserved by <a href="" target='_blank'>Eideas</a></p>
                             </div>
                             <div className="col-lg-6 text-end">
                                 <ul>
-                                    <li>
+                                    {/* <li>
                                         <Link href="/faq">Terms</Link>
                                     </li>
                                     <li>
                                         <Link href="/about-us">Privacy</Link>
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <Link href="/contact-us">Support</Link>
                                     </li>
