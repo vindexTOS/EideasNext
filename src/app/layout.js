@@ -20,8 +20,7 @@ import '@/assets/css/style.css';
 import Dependency from '@/components/utilities/Dependency';
 import { ToastContainer } from 'react-toastify';
 import { Manrope, Outfit } from "next/font/google";
-
-const manrope = Manrope({ subsets: ["latin"] });
+ const manrope = Manrope({ subsets: ["latin"] });
 const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata = {
@@ -31,6 +30,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+      <link rel="icon" href="/favicon.png"  type="image/png" sizes="42x42" />      </head>
       <body className={`${outfit.className} ${manrope.className}`}>
         <ToastContainer />
         <Dependency />
