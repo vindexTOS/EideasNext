@@ -82,19 +82,19 @@ const ServiceDetailsContent = ({ serviceInfo }) => {
 
                             <div className="col-xl-4 col-lg-5 mt-md-120 mt-xs-50 services-sidebar">
                                 <div className="single-widget services-list-widget">
-                                    <h4 className="widget-title">Marketing Services</h4>
+                                    <h4 className="widget-title">სხვა სერვისები</h4>
                                     <div className="content">
                                         <ul>
-                                            <li><Link href="#">Email Marketing</Link></li>
-                                            <li className="current-item"><Link href="#">Growth Hacking</Link></li>
-                                            <li><Link href="#">Lead Generation</Link></li>
-                                            <li><Link href="#">Offline SEO</Link></li>
-                                            <li><Link href="#">Social Media Marketing</Link></li>
+                                            <li className={ title == "IoT" && "current-item"}>  <Link href="/services-details/1">IoT სისტემები</Link></li>
+                                            <li className={ title == "PCB დიზაინი" && "current-item"}><Link href="/services-details/2">PCB დიზაინი</Link></li>
+                                            <li className={ title == "Hardware ინჟინერია" && "current-item"}><Link href="/services-details/3">Hardware მოწყობილობები</Link></li>
+                                            <li className={ title == "სისტემების აუტომიზაცია" && "current-item"}><Link href="/services-details/4">ავტომატიზირებული სისტემა</Link></li>
+                                            {/* <li><Link href="#">Social Media Marketing</Link></li> */}
                                         </ul>
                                     </div>
                                 </div>
 
-                                <div className="single-widget bg-dark quick-contact-widget text-light" style={{ backgroundImage: `url(/assets/img/shape/15.png)` }}>
+                                {/* <div className="single-widget bg-dark quick-contact-widget text-light" style={{ backgroundImage: `url(/assets/img/shape/15.png)` }}>
                                     <div className="content">
                                         <h3>Need Help?</h3>
                                         <p>
@@ -104,14 +104,14 @@ const ServiceDetailsContent = ({ serviceInfo }) => {
                                         <h4><a href="mailto:info@digital.com">info@digital.com</a></h4>
                                         <Link className="btn mt-30 circle btn-sm btn-gradient" href="/contact-us">Contact Us</Link>
                                     </div>
-                                </div>
+                                </div> */}
 
                                 <div className="single-widget widget-brochure">
-                                    <h4 className="widget-title">Brochure</h4>
-                                    <ul>
+                                    {/* <h4 className="widget-title">Brochure</h4> */}
+                                    {/* <ul>
                                         <li><Link href="#" onClick={handleSmoothScroll}><i className="fas fa-file-pdf"></i> Download Brochure </Link></li>
                                         <li><Link href="#" onClick={handleSmoothScroll}><i className="fas fa-file-pdf"></i> Company Details </Link></li>
-                                    </ul>
+                                    </ul> */}
                                 </div>
 
                             </div>
