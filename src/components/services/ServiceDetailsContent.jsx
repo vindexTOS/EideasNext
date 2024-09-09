@@ -6,7 +6,7 @@ import Link from 'next/link';
 import handleSmoothScroll from '../utilities/handleSmoothScroll';
 
 const ServiceDetailsContent = ({ serviceInfo }) => {
-    const { thumbFull, title } = serviceInfo
+    const { thumbFull, title,icon, whatDoWeDo,text, serviceListTitle,serviceList, subDescription } = serviceInfo
 
     return (
         <>
@@ -20,35 +20,31 @@ const ServiceDetailsContent = ({ serviceInfo }) => {
                                 </div>
                                 <h2>{title}</h2>
                                 <p>
-                                    We denounce with righteous indige nation and dislike men who are so beguiled and demo realized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue cannot foresee. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled data structures manages data in technology.
-                                </p>
+                                    {whatDoWeDo}
+                                 </p>
                                 <div className="features mt-40 mt-xs-30 mb-30 mb-xs-20">
                                     <div className="row">
-                                        <div className="col-lg-5 col-md-6">
+                                        <div className="  w-[100%]">
                                             <div className="content">
-                                                <h3>Included Services</h3>
+                                                <h3>{serviceListTitle}</h3>
                                                 <ul className="feature-list-item">
-                                                    <li>Consulting Service</li>
-                                                    <li>24/7 Alltime Supporting</li>
-                                                    <li>Marketing Service</li>
-                                                    <li>Expert Team Members</li>
+                                                   {serviceList.map((tit)=> <li>{tit}</li>)}
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div className="col-lg-7 col-md-6 mt-xs-30">
+                                        {/* <div className="col-lg-7 col-md-6 mt-xs-30">
                                             <div className="content">
                                                 <h3>The Challange</h3>
                                                 <p>
                                                     Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias. consequatur aut perferendis doloribus.
                                                 </p>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
-                                <h3>What we do?</h3>
+                                 
                                 <p>
-                                    Nam libero tempore, cum soluta nobis est elig endi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repelle ndus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias. consequatur aut perferendis doloribus asperiores repellat. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.  pleasures have to be repudiated and annoyances accepted.
-                                </p>
+{subDescription }                                </p>
 
                                 <div className="faq-style-one dark mt-40">
                                     <h3 className="mb-30">Common Question for this project</h3>
