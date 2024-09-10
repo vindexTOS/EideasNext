@@ -1,11 +1,6 @@
 /* styles/banner.module.css */
 
-.banner-thumb {
-    background-size: cover;
-    background-position: center;
-    height: 400px; /* Adjust height as needed */
-    width: 100%;
-  }
+ 
  
 
  
@@ -44,10 +39,7 @@
     bottom: 0;
     right: 0;
   }
-  .banner-shape-bg {
-    position: relative;
-    display: inline-block; /* or use a specific width/height if needed */
-}
+ 
 
 .banner-shape-bg img {
     display: block;
@@ -56,7 +48,7 @@
 }
 
 .overlay {
-  z-index: 100001;
+  
     position: absolute;
     top: 0;
     left: 0;
@@ -156,3 +148,47 @@
 .content h2:nth-of-type(6) {
   --i: 5; /* Most delay */
 }
+.content{
+  
+}
+
+ @media screen and (max-width:500px) {
+  .p-teg-sub-text{
+    font-size: 0.5rem;
+   
+ }
+ }
+
+@media screen and   (max-height: 750px) {
+
+  .content h2 {
+      font-size: 1rem; /* Adjusted size for the media query */
+      margin:0;
+    }
+    .h2-text{
+      font-size: 3.4rem; 
+      margin:0;
+    }
+    .content{
+      
+      overflow: hidden;
+      gap:2px;
+      display: flex;
+      flex-direction: column;
+    justify-content: center;
+    padding:110px;
+    }
+    .content p {
+ 
+     font-size: 1rem;
+    }
+ .btn-text{
+   font-size: 1rem;
+    text-align: center;
+ }
+}
+.p-teg-sub-text{
+ 
+   text-align: center;
+}
+

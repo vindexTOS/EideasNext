@@ -9,7 +9,7 @@ export const metadata = {
 const TeamPage = () => {
     return (
         <>
-            <LayoutStyle7 breadCrumb="team" title="Team Members">
+            <LayoutStyle7 breadCrumb="team" title="Team Members"  bannerImg='Team.jpg'>
                 <TeamStyle1 fullTeam={true} sectionClass="bg-gray" />
             </LayoutStyle7>
         </>

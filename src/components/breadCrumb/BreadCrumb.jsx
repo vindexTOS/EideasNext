@@ -3,10 +3,10 @@ import React from 'react';
 import breadCrumbThumb from '@/assets/img/shape/50.png';
 import Link from 'next/link';
 
-const BreadCrumb = ({ breadCrumb, title }) => {
+const BreadCrumb = ({ breadCrumb, title, bannerImg }) => {
     return (
         <>
-            <div className="breadcrumb-area bg-cover shadow dark text-center text-light" style={{ backgroundImage: "url(/assets/img/banner/Contact-Us.jpg)" }}>
+            <div className="breadcrumb-area bg-cover shadow dark text-center text-light" style={{ backgroundImage: `url(/assets/img/banner/${bannerImg})` }}>
                 <div className="breadcrum-shape">
                     <Image src={breadCrumbThumb} alt="Image Not Found" />
                 </div>

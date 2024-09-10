@@ -15,7 +15,7 @@ const ContactInfo = () => {
                         </div>
                         <div className="content">
                             <h5 className="title">Hotline</h5>
-                            <a href="">+995 574 15 19 53</a>
+                            <a href="">2 111 838</a>
                             <h6>ორშაბათი - პარასკევი, 10:00 - 18:00 სთ</h6>
                         </div>
                     </li>

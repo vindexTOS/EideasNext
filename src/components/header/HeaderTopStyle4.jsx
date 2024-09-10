@@ -13,7 +13,7 @@ const HeaderTopStyle4 = () => {
                                 <i className="fas fa-envelope"></i> info@eideas.io
                                 </li>
                                 <li>
-                                    <a href="tel:+995 574 15 19 53"><i className="fas fa-phone-alt"></i> +995 574 15 19 53</a>
+                                    <a href="tel:2 111 838"><i className="fas fa-phone-alt"></i> 2 111 838</a>
                                 </li>
                             </ul>
                         </div>

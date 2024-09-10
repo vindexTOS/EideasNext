@@ -38,8 +38,8 @@ const HeaderStyle2 = () => {
                                                 <i className="fas fa-comments-alt-dollar"></i>
                                             </div>
                                             <div className="info">
-                                                <p>Have any Questions?</p>
-                                                <h5><a href="mailto:info@crysta.com">info@bestup.com</a></h5>
+                                                <p>შეკითხვა გაქვს ?</p>
+                                                <h5><a href="mailto:info@crysta.com">info@eideas.io</a></h5>
                                             </div>
                                         </div>
                                     </li>

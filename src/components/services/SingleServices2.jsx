@@ -19,7 +19,7 @@ const SingleServices2 = ({ service }) => {
                     </div>
                 </div>
                 <div className="info">
-                    <p>{text}</p>
+                    <p>{text.slice(0,120)}...</p>
                     <div className="button">
                         <Link href={`/services-details/${id}`}>{btnText}</Link>
                         <div className="devider"></div>

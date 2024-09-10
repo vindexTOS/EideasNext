@@ -5,7 +5,7 @@ import anim2Thumb from '@/assets/img/shape/anim-2.png'
 import anim3Thumb from '@/assets/img/shape/anim-3.png'
 import anim4Thumb from '@/assets/img/shape/anim-4.png'
 import aboutThumb from "@/assets/img/device-photos/device1.jpg"
- 
+ import "@/assets/css/style.css"
 
 const AboutStyle1 = () => {
     return (
@@ -65,8 +65,12 @@ const AboutStyle1 = () => {
                          <div className="thumb-shape-bottom wow fadeInDown" data-wow-delay="300ms">
                                     <Image src={anim3Thumb} alt="Image Not Found" />
                                     <Image src={anim4Thumb} alt="Image Not Found" />
-                                </div>       
+                                </div>    
+
                             </div>
+                            <button className="btn btn-danger">
+    <a href='https://lift.eideas.io/home' target='_blank' rel='noopener noreferrer' style={{color:"white"}}  > სისტემის სერვერი</a> 
+</button>
                         </div>
                     </div>
                 </div>
