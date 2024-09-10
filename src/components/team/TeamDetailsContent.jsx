@@ -35,7 +35,7 @@ const TeamDetailsContent = ({ teamInfo }) => {
                                         <a  >{phone}</a>
                                     </li>
                                 </ul>
-                                <div className="social">
+                                {/* <div className="social">
                                     <a className="btn circle btn-sm btn-dark animation" href="#">Contact Me</a>
                                     <div className="share-link">
                                         <i className="fas fa-share-alt"></i>
@@ -43,7 +43,7 @@ const TeamDetailsContent = ({ teamInfo }) => {
                                             <SocialShareStyle3 />
                                         </ul>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

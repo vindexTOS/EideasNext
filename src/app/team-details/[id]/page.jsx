@@ -3,6 +3,7 @@ import React from 'react';
 import TeamData from '@/assets/jsonData/team/TeamData.json';
  
 import LayoutStyle1 from '@/components/Layouts/LayoutStyle1';
+import LayoutStyle7 from '@/components/Layouts/LayoutStyle7';
  
  
 
@@ -17,9 +18,9 @@ const TeamDetails = ({ params }) => {
 
     return (
         <>
-            <LayoutStyle1 breadCrumb="Team-details" title="Team Details">
+            <LayoutStyle7 breadCrumb={"Team-member/" + id} title={data.name} bannerImg='Team.jpg'>
                 <TeamDetailsContent teamInfo={data} />
-            </LayoutStyle1>
+            </LayoutStyle7>
         </>
     );
 };

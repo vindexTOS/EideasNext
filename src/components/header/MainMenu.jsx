@@ -19,7 +19,7 @@ const MainMenu = ({ toggleSubMenu, navbarPlacement }) => {
                         <li><Link href="/team">ჩვენი გუნდი</Link></li>
         
                         <li><Link href="/services">ბლოგი</Link></li>
-                        <li><Link href="/services">კონტაქტი</Link></li>
+                        <li><Link href="/contact-us">კონტაქტი</Link></li>
 
 
                     </ul>
