@@ -20,7 +20,7 @@ const ServicesStyle2 = () => {
                     </div>
                 </div>
                 <div className="container">
-                    <div  style={{width:'100%',display:'flex', alignItems:'center', justifyContent:"center", gap:20, flexWrap:"flex"}}>
+                    <div  style={{width:'100%',display:'flex', alignItems:'center', justifyContent:"center", gap:20, flexWrap:"wrap"}}>
                         {Services2Data.slice(0, 4).map(service =>
                             <div className="col-xl-4 col-md-6 mb-30" key={service.id}>
                                 <SingleServices2 service={service} />
