@@ -18,7 +18,7 @@ const MainMenu = ({ toggleSubMenu, navbarPlacement }) => {
                     <ul className="dropdown-menu">
                         <li><Link href="/team">ჩვენი გუნდი</Link></li>
         
-                        <li><Link href="/services">ბლოგი</Link></li>
+                        <li><Link href="/blog-2-column">ბლოგი</Link></li>
                         <li><Link href="/contact-us">კონტაქტი</Link></li>
 
 

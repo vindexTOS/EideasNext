@@ -28,7 +28,7 @@ const FooterStyle1 = ({ shape, shapeClass, logo, formStyle }) => {
                                         {logo ? <Image className="logo" src={logo} alt="Logo" /> : <Image className="logo" src={logoLight} alt="Logo" />}
                                     </Link>
                                     <p>
-                                        Excellence decisively nay man twins impression maximum contrasted remarkably is perfect.
+                                        ჩვენ გარდავქმნით თქვენს იდეას რეალობად
                                     </p>
                                     <div className="opening-hours">
                                         <h5>მუშაობის საათები</h5>
@@ -49,12 +49,13 @@ const FooterStyle1 = ({ shape, shapeClass, logo, formStyle }) => {
                             </div>
                             <div className="col-lg-2 col-md-6 footer-item">
                                 <div className="f-item link">
-                                    <h4 className="widget-title">Our Company</h4>
+                                    <h4 className="widget-title">ჩვენი კომპანია</h4>
                                     <ul>
                                         <li>
-                                            <Link href="/about-us">Compnay Profile</Link>
+                                            <Link href="/team">ჩვენი გუნდი</Link>
                                         </li>
-                                        <li>
+                                     
+                                        {/* <li>
                                             <Link href="/contact-us">Help Center</Link>
                                         </li>
                                         <li>
@@ -62,31 +63,29 @@ const FooterStyle1 = ({ shape, shapeClass, logo, formStyle }) => {
                                         </li>
                                         <li>
                                             <Link href="/pricing">Plans & Pricing</Link>
-                                        </li>
+                                        </li> */}
                                         <li>
-                                            <Link href="/contact-us">Contact</Link>
+                                            <Link href="/contact-us">კონტაქტი </Link>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="col-lg-2 col-md-6 footer-item">
                                 <div className="f-item link">
-                                    <h4 className="widget-title">Our Services</h4>
+                                    <h4 className="widget-title">სერვისები</h4>
                                     <ul>
+                                    
                                         <li>
-                                            <Link href="/services-details/1">Manage investment</Link>
+                                            <Link href="/services-details/1">IoT სისტემები</Link>
                                         </li>
                                         <li>
-                                            <Link href="/services-details/1">Business planning</Link>
+                                            <Link href="/services-details/2">PCB დიზაინი</Link>
                                         </li>
                                         <li>
-                                            <Link href="/services-details/1">Financial advices</Link>
+                                            <Link href="/services-details/3">Hardware მოწყობილობები</Link>
                                         </li>
                                         <li>
-                                            <Link href="/services-details/1">Tax strategy</Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/services-details/1">Insurance strategy</Link>
+                                            <Link href="/services-details/4">აუტომიზაცია</Link>
                                         </li>
                                     </ul>
                                 </div>

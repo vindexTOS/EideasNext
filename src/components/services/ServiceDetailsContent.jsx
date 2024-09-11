@@ -42,8 +42,8 @@ const ServiceDetailsContent = ({ serviceInfo }) => {
                       <div className="content">
                         <h3>{serviceListTitle}</h3>
                         <ul className="feature-list-item">
-                          {serviceList.map((tit) => (
-                            <li>{tit}</li>
+                          {serviceList.map((tit, i) => (
+                            <li key={i}>{tit}</li>
                           ))}
                         </ul>
                       </div>
@@ -63,7 +63,7 @@ const ServiceDetailsContent = ({ serviceInfo }) => {
                         <Link href="/services-details/1">IoT სისტემები</Link>
                       </li>
                       <li className={title == "PCB დიზაინი" && "current-item"}>
-                        <Link href="/services-details/2">PCB დიზაინი</Link>
+                        <Link href="/services-details/2">PCB  დიზაინი</Link>
                       </li>
                       <li
                         className={
@@ -115,8 +115,8 @@ const ServiceDetailsContent = ({ serviceInfo }) => {
              
               id="faqAccordion"
             >
-              {subInfo.map((val) => (
-                <div style={{ display: "flex"  ,flexDirection:val.bool   ? "column"  :"row" , alignItems:val.bool ? 'center' : "", flexWrap:"wrap", padding:"20px"}}>
+              {subInfo.map((val, i) => (
+                <div key={i} style={{ display: "flex"  ,flexDirection:val.bool   ? "column"  :"row" , alignItems:val.bool ? 'center' : "", flexWrap:"wrap", padding:"20px"}}>
                   
                   <img
                     style={{ width:val.bool? "90%" : "400px", height:val.bool? "auto" : "300px" }}
@@ -127,15 +127,15 @@ const ServiceDetailsContent = ({ serviceInfo }) => {
                   <div>
                     <p>{val.name}</p>
                    {val.info.length > 1 && <ul className="feature-list-item">
-                      {val.info.map((l) => (
-                        <li>{l}</li>
+                      {val.info.map((l, index) => (
+                        <li key={index}>{l}</li>
                       ))}
                     </ul>}
                   </div>
                 </div>
               ))}
             </div>
-          </div>{" "}
+          </div> 
         </section>
       </div>
     </>
