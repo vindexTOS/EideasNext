@@ -90,9 +90,9 @@
                 "memberInfo": [
                     {
                         "id": 1,
-                        "title": "Saqartvelos Teqnikuri Universiteti",
-                        "info": "electric engineering",
-                        "timeSpan": "1995 - 2000"
+                        "title": "",
+                        "info": "",
+                        "timeSpan": ""
                     } 
                     
                 ]
@@ -103,28 +103,11 @@
                 "memberInfo": [
                     {
                         "id": 1,
-                        "title": "Electrical Engineer",
-                        "info": "special state protection service of georgia",
-                        "timeSpan": "Dec 2001 - Dec 2011 "
-                    },
-                    {
-                        "id": 2,
-                        "title": "programmer",
-                        "info": "MyGPS LLC",
-                        "timeSpan": "Dec 2011 - Dec 2013"
-                    },
-                    {
-                        "id": 3,
-                        "title": "lector",
-                        "info": "agricultural university of georgia",
-                        "timeSpan": "Sep 2013 - Present"
-                    },
-                    {
-                        "id": 4,
-                        "title": "Electrical Engineer",
-                        "info": "georgian ministry of internal affairs",
-                        "timeSpan": "Sep 2011 - Present"
+                        "title": "",
+                        "info": "",
+                        "timeSpan": ""
                     }
+                   
                 ]
             }
         ]
